@@ -47,18 +47,18 @@
   
   # IMPORTANT
   
-    To save time scrawling through the AQP Pipeline figuring out how to run it, follow these instructions.
-    
-      1. download the datasets from the link above.
-      
-      2. put them in a directory called "resources" in the AQP-main directory. 
-      
-      3. after initial setup, run the following 2 commands:
-        
-        python utils/prepend_files.py --prepend_with "resources/" --dataset "resources/genspeech.csv"
-        
-        pip install -r requirements.txt
-    
-      4. Then the command to run the actual pipeline with the dataset and the lattice network is this:
-      
-        python pipeline.py --root_node_id "Load DF" --graph_config_path "config/warpq_pesq_dataset.json" --plot_graph
+  To save time scrawling through the AQP Pipeline figuring out how to run it, follow these instructions.
+
+   1. download the datasets from the link above.
+
+   2. put them in a directory called "resources" in the AQP-main directory. 
+
+   3. after initial setup, run the following 2 commands:
+
+      python utils/prepend_files.py --prepend_with "resources/" --dataset "resources/genspeech.csv"
+
+      pip install -r requirements.txt
+
+   4. Then the command to run the actual pipeline with the dataset and the lattice network is this:
+
+      python pipeline.py --root_node_id "Load DF" --graph_config_path "config/warpq_pesq_dataset.json" --plot_graph
