@@ -31,3 +31,18 @@
     nodes/dlnnode.py
     
     visualisations.ipynb
+
+# Additional Libs Needed Beyond the WARP-Q and AQP Pipeline Libs
+  tensorflow; keras
+  
+  tensorflow_lattice
+
+  keras.layers; Dense
+
+  keras.models; Sequential
+
+  scipy.stats; pearsonr, spearmanr
+  
+  absl; app, flags
+  
+  
